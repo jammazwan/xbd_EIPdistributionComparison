@@ -1,2 +1,0 @@
-activeMembers 15
-inactiveMembers 12
