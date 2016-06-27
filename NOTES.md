@@ -1,3 +1,11 @@
+### Caution: More Complex Than Most X_Projects
+
+This project comes close to breaking the intent of jammazwan example projects, which is to show an isolated camel feature in a 60 second TTFHW.
+
+It do the TTFHW part fine, but it's hardly an isolated feature. Instead it shows what should hopefully be the exact minimum required to get a realistic comparison between the 4 most common similar EIP patterns. 
+
+Novices are warned, accordingly.
+
 ### EIPdistributionComparison NOTES:
 
 
