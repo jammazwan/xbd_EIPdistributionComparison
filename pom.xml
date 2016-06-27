@@ -25,11 +25,6 @@
 	<dependencies>
 
 		<dependency>
-			<groupId>jammazwan</groupId>
-			<artifactId>shared</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-		<dependency>
 			<groupId>org.apache.camel</groupId>
 			<artifactId>camel-spring</artifactId>
 			<version>${camel-version}</version>

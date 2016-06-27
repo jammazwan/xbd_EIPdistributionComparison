@@ -6,7 +6,6 @@ import java.util.Map;
 import org.apache.camel.Exchange;
 import org.apache.camel.Processor;
 import org.apache.commons.lang.math.RandomUtils;
-import org.apache.openjpa.jdbc.kernel.exps.IndexOf;
 import org.springframework.stereotype.Component;
 
 @Component

@@ -8,8 +8,6 @@ import org.junit.Test;
 import org.springframework.context.support.AbstractXmlApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import jammazwan.util.HoldContextOpenUntilDone;
-
 public class DynamicRouterTest extends CamelSpringTestSupport {
 
 	@Override
