@@ -18,7 +18,7 @@ There are 4 standalone tests, one for each of the EIPs. Each test has
 
  * a companion camel-....xml
  * a companion ...Processor
- * a companion ...output.txt file to write out the results of the exchanges
+ * a companion output_[eip].txt file to write out the results of the exchanges
 
 ### Task Design
 
@@ -52,8 +52,6 @@ Since the organizer knows nothing until he sees who shows up with what, he/she h
 
 Handles the RSVP by writing each RSVP to output_multicast.txt.
 
-Per normal EIP usages, Aggregator is used to write this file.
-
 As approx 20% will decline, only 12 of the 15 will show up for the campout.
 
 The output file is still a single batch, but at least it includes who declined. So the organizer will be able to make the food run for the 3 missing food items on the way to the campout, rather than after it gets started.
@@ -77,7 +75,7 @@ Depending on the luck of the random number generator, 15 people will show up at 
 
 ### Hackish:
 
- * processor used instead of bean just to have full access to all of exchange easily
+ * processors used instead of beans just to have full access to all of exchange, easily. Not as elegant as Claus Isben would suggest.
  * used statics for populating test data which would probably be inappropriate for a real project
  * used "direct:MemberName" for routing targets, which would be questionable in a real project. More typically, routing targets might be components rather than individuals
  * no attempt was made to produce anything like realistic messages to members of what they were to bring. Program was written to act as if this had taken place, and record the appropriate next step. This piece was not deemed to be relevant to the demo.
