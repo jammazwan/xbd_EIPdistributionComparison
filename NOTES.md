@@ -2,7 +2,7 @@
 
  * **RecipientList**
  * **Multicast**
- * **RoutingSlip
+ * **RoutingSlip**
  * **DynamicRouter**
 
 Use case: sending **invites to your social group for a camping weekend**, and sometimes tracking responses (depending on the EIP pattern).
