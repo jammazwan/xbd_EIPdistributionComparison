@@ -8,9 +8,11 @@
 
 ### EIPdistributionComparison 
 
-Functionality: **_show RecipientList RoutingSlip DynamicRoute Wiretap Multicast as compared to each other_**
+Functionality: **_show RecipientList RoutingSlip DynamicRoute Multicast as compared to each other_**
 
 ---
+
+ **See [NOTES.md](https://github.com/jammazwan/xbd_EIPdistributionComparison/blob/master/NOTES.md) for more information!**
 
 ### Setup: 
 
@@ -35,7 +37,7 @@ You man now import xbd_EIPdistributionComparison into your IDE.
 
 ### Run Instructions:
 
-_Run each of the four tests individually, compare results in the output files. See NOTES.md for more information_
+_Run each of the four tests individually, compare results in the output files. **See NOTES.md for more information!**_
 
 ---
 
