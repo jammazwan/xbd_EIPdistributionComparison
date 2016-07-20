@@ -1,3 +1,15 @@
+### Same Model and Use Case, 4 EIP Patterns
+
+ * **RecipientList**
+ * **Multicast**
+ * **RoutingSlip
+ * **DynamicRouter**
+
+Use case: sending **invites to your social group for a camping weekend**, and sometimes tracking responses (depending on the EIP pattern).
+
+It is intended to clarify the behavior and differences of the 4 patterns relative to each other, as well as cover some of the easier Camel syntax/semantics.
+
+
 ### Caution: More Complex Than Most X_Projects
 
 This project comes close to breaking the intent of jammazwan example projects, which is to show an isolated camel feature in a 60 second TTFHW.
@@ -11,7 +23,7 @@ Novices are warned, accordingly.
 
 Here's a summary I made from the two sources I have read on these 4 CBR EIPs. Hopefully it is close to correct. 
 
-Please note that I was not always able to reconcile apparent differences between the Hophe/Woolf EIP book, and the Isben/Anstey Camel in Action book. So I probably steered closer to the Camel In Action Book. Notable examples of differences include a deliberately articulated Control Channel for the Dynamic Router in the EIP book, but there may be others.
+Please note that I was not always able to perfectly reconcile apparent differences between the Hophe/Woolf EIP book, and the Isben/Anstey Camel in Action book. So I probably steered closer to the Camel In Action Book. Notable examples of differences include a deliberately articulated Control Channel for the Dynamic Router in the EIP book, but there may be others.
 
  * **RecipientList** - sends, doesn't receive reply. List determined by content of message.
  * **Multicast** - Like above, but sends as a request, receives reply. Typically consolidates replies with Aggregator.
